@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset='utf-8'>
-    <title>My Portfolio</title>
+    <title>My Portfolio</title>>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='slop.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/slop.css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -49,7 +49,7 @@
             class="project project-tile">
             <img
               class="project-image"
-              src="images/alien.jpg"
+              src="image/alien.jpg"
               alt="project"/>
             <p class="project-title">
               <span class="code">&lt;</span>
@@ -64,7 +64,7 @@
           
             <img
               class="project-image"
-              src="images/trib.jpg"
+              src="image/trib.jpg"
               alt="project"/>
             <p class="project-title">
               <span class="code">&lt;</span>
@@ -79,7 +79,7 @@
             class="project project-tile">
             <img
               class="project-image"
-              src="images/landp.jpg"
+              src="image/landp.jpg"
               alt="project"/>
             <p class="project-title">
               <span class="code">&lt;</span>
@@ -94,7 +94,7 @@
             class="project project-tile">
             <img
               class="project-image"
-              src="images/docp.jpg"
+              src="image/docp.jpg"
               alt="project"/>
             <p class="project-title">
               <span class="code">&lt;</span>
@@ -109,7 +109,7 @@
             class="project project-tile">
             <img
               class="project-image"
-              src="images/form.jpg"
+              src="image/form.jpg"
               alt="project"/>
             <p class="project-title">
               <span class="code">&lt;</span>
@@ -131,6 +131,44 @@
         <h2>We'll love to hear from you...</h2>
         <p>How do you like your tea? ☕</p>
       </div>
+
+    <div class="split">
+      <div>
+        <form>
+          <div class="form-unit">
+            <label id="name-label" for="name">Name:</label>
+                <input
+                    id="name"
+                    type="text"
+                    placeholder="Enter your name..."
+                    class="form-cntl"
+                    required />
+          </div>
+
+          <div class="form-unit">
+            <label id="email-label" for="email">Email:</label>
+              <input
+                  id="email"
+                  type="email"
+                  placeholder="Enter your Email..."
+                  class="form-cntl"
+                  required />
+          </div>
+
+          <div class="form-unit">
+            <textarea
+                id="comms"
+                class="ent-textarea"
+                placeholder="Enter your comment here..."></textarea>
+          </div>
+
+          <div class="form-unit">
+            <button id="submit" type="submit" class="sub-btn">
+                Submit
+            </button>
+          </div>
+        </form>
+      </div>
       <div class="contact-links">
         <a
           href="https://www.linkedin.com/in/anthony-ube-a45b2092/"
@@ -150,6 +188,7 @@
         <a href="tel:555-555-5555" class="btn contact-details"
           ><i class="fa fa-2x fa-mobile-phone"></i> Call me</a>
       </div>
+    </div>
     </section>
 
     <!-- END CONTACT SECTION -->
