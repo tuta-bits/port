@@ -374,3 +374,62 @@ cursor: pointer;
 background: var(--main-blue);
 color: var(--color-salmon);
 }
+
+.gang {
+  padding: 6rem;
+  width: 80%;
+  margin-left: 10%;
+  font-size: 25px;
+}
+
+.tat {
+  width: 50%;
+  display: block;
+  justify-content: center;
+  border: 1px solid;
+  border-color: var(--main-blue);
+  border-radius: 5px;
+}
+
+.welcome-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+#blade {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70vh;
+  background-color: #000;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+#blade > p {
+  font-size: 25px;
+} 
+
+#blade > h2 {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+.btn-wel {
+  background-color: inherit;
+  border: 1px solid;
+  border-color: var(--main-white);
+  border-radius: 5px;
+  padding: 1rem;
+  margin-top: 5rem;
+}
+
+.btn-wel:hover {
+  background: var(--main-blue);
+  color: var(--color-salmon);
+  }
