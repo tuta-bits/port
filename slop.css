@@ -382,12 +382,6 @@ color: var(--color-salmon);
   font-size: 25px;
 }
 
-h1.major {
-  position: relative;
-  text-align: center;
-  z-index: 17;
-}
-
 .tat {
   width: 50%;
   display: block;
@@ -412,7 +406,30 @@ h1.major {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 50vh;
+  height: 70vh;
   background-color: #000;
   background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
 }
+
+#blade > p {
+  font-size: 25px;
+} 
+
+#blade > h2 {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+.btn-wel {
+  background-color: inherit;
+  border: 1px solid;
+  border-color: var(--main-white);
+  border-radius: 5px;
+  padding: 1rem;
+  margin-top: 5rem;
+}
+
+.btn-wel:hover {
+  background: var(--main-blue);
+  color: var(--color-salmon);
+  }
