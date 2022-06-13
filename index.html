@@ -137,11 +137,12 @@
 
     <div class="split">
       <div>
-        <form>
+        <form name="myForm" onsubmit="return validateForm()">
           <div class="form-unit">
             <label id="name-label" for="name">Name:</label>
                 <input
                     id="name"
+                    name="name"
                     type="text"
                     placeholder="Enter your name..."
                     class="form-cntl"
@@ -152,6 +153,7 @@
             <label id="email-label" for="email">Email:</label>
               <input
                   id="email"
+                  name="email"
                   type="email"
                   placeholder="Enter your email..."
                   class="form-cntl"
@@ -207,5 +209,6 @@
       </p>
     </footer>
 
+    <script src="main.js"></script>
 </body>
 </html>

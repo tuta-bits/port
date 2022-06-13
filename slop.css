@@ -5,6 +5,7 @@
   --main-blue: #45567d;
   --main-gray: #303841;
   --color-salmon: #FA8072;
+  --main-DarkGreen: #008000;
 }
 
 /* Base reset */
@@ -101,6 +102,10 @@ z-index: 10;
 .nav-list {
 display: flex;
 margin-right: 2rem;
+}
+
+nav > ul > li > a.active {
+color: var(--main-DarkGreen);
 }
 
 @media (max-width: 28.75em) {
