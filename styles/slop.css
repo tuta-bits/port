@@ -298,6 +298,36 @@ display: flex;
 .split > :nth-child(2n) {
     padding-left: 2.5em;
 }
+
+@media screen and (max-width: 980px) {
+
+  .split {
+    display: block;
+  }
+
+    .split > * {
+      margin: 4em 0 0 0;
+      padding: 4em 0 0 0;
+      width: 100% !important;
+    }
+
+    .split > :nth-child(2n - 1) {
+      border-right: 0;
+      padding-right: 0;
+    }
+
+    .split > :nth-child(2n) {
+      padding-left: 0;
+    }
+
+    .split > :first-child {
+      border-top: 0;
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+}
+
 /* End of Split*/
 
 
