@@ -468,3 +468,22 @@ color: var(--color-salmon);
   background: var(--main-blue);
   color: var(--color-salmon);
   }
+
+  #next {
+   display: block;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+    border: 1px solid var(--main-white);
+    width: 25%;
+    padding: 0.75rem;
+    border-radius: 5px;
+  }
+
+  #next:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(113, 113, 198, 0.5);
+    transform: translateY(-0.5rem);
+    transition: transform 170ms;
+    color: var(--color-salmon);
+  }
