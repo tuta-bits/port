@@ -6,14 +6,13 @@ function validateForm() {
 
     if (uname.length < 6) {
 
-        alert("Name needs to be minimum of 6 characters long");;
+        alert("Name needs to be minimum of 6 characters long");
         return false;
     }
     else {
-        let alertMsg = "The details supplied: " + 
-        "\nName: " + uname + 
-        "\nEmail: " + email + 
-        "\nDo you want to submit this form?";
+        let alertMsg = "Thanks, feedback sent successfully." + 
+        "\nWe really appreciate your time." + 
+        "\nAnd will action your request in timely manner.";
 
         confirm(alertMsg);
        return true;
