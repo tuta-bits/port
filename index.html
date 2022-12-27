@@ -152,7 +152,7 @@
 
     <div class="split">
       <div>
-        <form name="myForm" onsubmit="return validateForm()">
+        <form name="myForm" onsubmit="return validateForm()" action="https://formsubmit.co/929f8c414946669d0ea163707eb18518" method="POST" enctype="multipart/form-data">
           <div class="form-unit">
             <label id="name-label" for="name">Name:</label>
                 <input
@@ -179,7 +179,14 @@
             <textarea
                 id="comms"
                 class="ent-textarea"
+                name="message"
+                required
                 placeholder="Enter your comment here..."></textarea>
+          </div>
+
+          <div class="form-unit">
+            <label for="attachment">Upload File: </label>
+            <input type="file" name="attachment" accept="image/png, image/jpeg, image/jpg, .pdf, .mp4, .mp3, .doc, .docx, .xlsx, .txt, .csv">
           </div>
 
           <div class="form-unit">
@@ -187,6 +194,8 @@
                 Submit
             </button>
           </div>
+          <input type="hidden" name="_next" value="https://tuta-bits.github.io/port">
+          <input type="hidden" name="_captcha" value="false">
         </form>
       </div>
       <div class="contact-links">
