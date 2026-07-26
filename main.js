@@ -18,3 +18,5 @@ function validateForm() {
        return true;
     }
 }
+
+document.getElementById("copyright-year").textContent = new Date().getFullYear();
